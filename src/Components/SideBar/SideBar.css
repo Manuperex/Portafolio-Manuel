@@ -1,0 +1,18 @@
+.SideBar{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: #353353;
+    gap: 2rem;
+    border-right:1px solid #F9F9FF;
+}
+img{
+    
+    width: 40px;
+    height: 40px;
+}
+svg{
+    fill: #7C7A8F;
+}

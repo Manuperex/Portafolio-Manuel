@@ -1,8 +1,9 @@
 import React from 'react'
+import './First.css'
 
 const First = () => {
   return (
-    <div>First</div>
+    <div className='First'>First</div>
   )
 }
 
