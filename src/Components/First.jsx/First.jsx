@@ -3,7 +3,13 @@ import './First.css'
 
 const First = () => {
   return (
-    <div className='First'>First</div>
+    <div className='First'>
+      <div>
+        <div>
+          <img className='Picture-First' src="../../../public/First/Ellipse 1.png" alt="" />
+        </div>
+      </div>
+    </div>
   )
 }
 
