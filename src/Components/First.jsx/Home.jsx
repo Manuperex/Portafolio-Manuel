@@ -1,5 +1,10 @@
 import React from 'react'
 import './Home.css'
+import Ellipse from "../../assets/home/Ellipse 1.png"
+import instagram from "../../assets/home/instagram.svg"
+import twitter from "../../assets/home/Twitter.svg"
+import linkedin from "../../assets/home/linkedin.svg"
+import github from "../../assets/home/github-sign.svg"
 
 
 const First = () => {
@@ -8,7 +13,7 @@ const First = () => {
       <div className='first'>
         <div className='first-container'>
           <div className='first-picture'>
-            <img className='picture' src="../../../public/First/Ellipse 1.png" alt="" />
+            <img className='picture' src={Ellipse} alt="" />
           </div>
           <div className='first-title'>
             <h2>Manuel Perez</h2>
@@ -17,10 +22,10 @@ const First = () => {
             <h3>Soy full stack web developer</h3>
           </div>
           <div className='first-icons'>
-            <img src="../../../public/First/instagram.svg" alt="" />
-            <img src="../../../public/First/Twitter.svg" alt="" />
-            <img src="../../../public/First/linkedin.svg" alt="" />
-            <img src="../../../public/First/github-sign.svg" alt="" />
+            <img src={instagram} alt="" />
+            <img src={twitter} alt="" />
+            <img src={linkedin} alt="" />
+            <img src={github} alt="" />
           </div>
           <div className='first-btn-principal'>
             <button className='btn-principal-btn'>

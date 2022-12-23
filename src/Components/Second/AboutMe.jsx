@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
-
+import Ellipse from "../../assets/aboutMe/Ellipse 1.png"
 const Second = () => {
     return (
         <div className='container-second-principal'>
@@ -12,7 +12,7 @@ const Second = () => {
                 </div>
                 <div className='container-second-about'>
                     <div className='container-about-img'>
-                        <img className='about-img' src="../../../public/Second/Ellipse 1.png" alt="" />
+                        <img className='about-img' src={Ellipse} alt="" />
                     </div>
                     <div className='about-info'>
                         <div>
