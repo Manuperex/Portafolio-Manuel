@@ -1,16 +1,17 @@
 import React from 'react'
 import "./SideBar.css"
+import home from "../../assets/SideBar/home.svg"
 const SideBar = () => {
   return (
     <div className='SideBar'>
       <div>
-        <a href="#"><img src="../../../public/SideBar/home.svg" alt="#" /></a>
+        <a href="#"><img src={home} alt="#" /></a>
       </div>
       <div>
-        <a href="#"><img src="../../../public/SideBar/user.svg" alt="" /></a>
+        <a href="#"><img src="../../assets/SideBar/user.svg" alt="" /></a>
       </div>
       <div>
-        <a href="#"><img src="../../../public/SideBar/portfolio.svg" alt="" /></a>
+        <a href="#"><img src=".../../assets/SideBar/portfolio.svg" alt="" /></a>
       </div>
       <div>
         <a href="#"><img src="../../../public/SideBar/graduation-cap.svg" alt="" /></a>
